@@ -1,0 +1,183 @@
+Learning resources
+General reading material
+
+    GenAI Security podcast
+    OWASP ML TOP 10
+    OWASP LLM TOP 10
+    OWASP AI Security and Privacy Guide
+    NIST AIRC - NIST Trustworthy & Responsible AI Resource Center
+    The MLSecOps Top 10 by Institute for Ethical AI & Machine Learning
+    OWASP Multi-Agentic System Threat Modeling
+
+Technical material & labs
+
+    Damn Vulnerable MCP Server - A deliberately vulnerable implementation of the Model Context Protocol (MCP) for educational purposes.
+    OWASP WrongSecrets LLM exercise
+
+Podcasts
+
+    MLSecOps podcast
+    AI Security Podcast
+
+Governance
+Frameworks and standards
+
+    NIST AI Risk Management Framework
+    ISO/IEC 42001 Artificial Intelligence Management System
+    ISO/IEC 23894:2023 Information technology — Artificial intelligence — Guidance on risk management
+    Google Secure AI Framework
+    ENISA Multilayer Framework for Good Cybersecurity Practices for AI
+    OWASP Artificial Intelligence Maturity Assessment
+    Google Secure AI Framework
+    CSA AI Model Risk Framework
+
+Standards
+
+    OWASP Agent Name Service
+    OWASP AI Security Verification Standard
+    OWASP Agent Observability Standard
+
+Taxonomies, terminology and risks
+
+    NIST AI 100-2e2023
+    AVIDML
+    MITRE ATLAS
+    ISO/IEC 22989:2022 Information technology — Artificial intelligence — Artificial intelligence concepts and terminology
+    MIT AI Risk Repository
+    AI Incident Database
+    NIST AI Glossary
+    The Arcanum Prompt Injection Taxonomy
+    CSA LLM Threats Taxonomy
+
+Other material
+
+    OWASP LLM Applications Cybersecurity and Governance Checklist
+    OWASP AI Security and Privacy Guide
+
+Offensive tools and frameworks
+Guides & frameworks
+
+    OWASP GenAI Red Teaming Guide
+
+ML
+
+    Malware Env for OpenAI Gym - makes it possible to write agents that learn to manipulate PE files (e.g., malware) to achieve some objective (e.g., bypass AV) based on a reward provided by taking specific manipulation actions
+    Deep-pwning - a lightweight framework for experimenting with machine learning models with the goal of evaluating their robustness against a motivated adversary
+    Counterfit - generic automation layer for assessing the security of machine learning systems
+    DeepFool - A simple and accurate method to fool deep neural networks
+    Snaike-MLFlow - MLflow red team toolsuite
+    HackingBuddyGPT - An automatic pentester (+ corresponding [benchmark dataset](https://github.com/ipa -lab/hacking-benchmark))
+    Charcuterie - code execution techniques for ML or ML adjacent libraries
+    OffsecML Playbook - A collection of offensive and adversarial TTP's with proofs of concept
+    BadDiffusion - Official repo to reproduce the paper "How to Backdoor Diffusion Models?" published at CVPR 2023
+    Exploring the Space of Adversarial Images
+    Adversarial Machine Learning Library(Ad-lib)](https://github.com/vu-aml/adlib) - Game-theoretic adversarial machine learning library providing a set of learner and adversary modules
+    Adversarial Robustness Toolkit - ART focuses on the threats of Evasion (change the model behavior with input modifications), Poisoning (control a model with training data modifications), Extraction (steal a model through queries) and Inference (attack the privacy of the training data)
+    cleverhans - An adversarial example library for constructing attacks, building defenses, and benchmarking both
+    foolbox - A Python toolbox to create adversarial examples that fool neural networks in PyTorch, TensorFlow, and JAX
+    TextAttack - TextAttack 🐙 is a Python framework for adversarial attacks, data augmentation, and model training in NLP https://textattack.readthedocs.io/en/master/
+
+LLM
+
+    garak - security probing tool for LLMs
+    agentic_security - Agentic LLM Vulnerability Scanner / AI red teaming kit
+    Agentic Radar - Open-source CLI security scanner for agentic workflows.
+    llamator - Framework for testing vulnerabilities of large language models (LLM).
+    whistleblower - Whistleblower is a offensive security tool for testing against system prompt leakage and capability discovery of an AI application exposed through API
+    LLMFuzzer - 🧠 LLMFuzzer - Fuzzing Framework for Large Language Models 🧠 LLMFuzzer is the first open-source fuzzing framework specifically designed for Large Language Models (LLMs), especially for their integrations in applications via LLM APIs. 🚀💥
+    vigil-llm - ⚡ Vigil ⚡ Detect prompt injections, jailbreaks, and other potentially risky Large Language Model (LLM) inputs
+    FuzzyAI - A powerful tool for automated LLM fuzzing. It is designed to help developers and security researchers identify and mitigate potential jailbreaks in their LLM APIs.
+    EasyJailbreak - An easy-to-use Python framework to generate adversarial jailbreak prompts.
+    promptmap - a prompt injection scanner for custom LLM applications
+    PyRIT - The Python Risk Identification Tool for generative AI (PyRIT) is an open source framework built to empower security professionals and engineers to proactively identify risks in generative AI systems.
+    PurpleLlama - Set of tools to assess and improve LLM security.
+    Giskard-AI - 🐢 Open-Source Evaluation & Testing for AI & LLM systems
+    promptfoo - Test your prompts, agents, and RAGs. Red teaming, pentesting, and vulnerability scanning for LLMs. Compare performance of GPT, Claude, Gemini, Llama, and more. Simple declarative configs with command line and CI/CD integration.
+    HouYi - The automated prompt injection framework for LLM-integrated applications.
+    llm-attacks - Universal and Transferable Attacks on Aligned Language Models
+    Dropbox llm-security - Dropbox LLM Security research code and results
+    llm-security - New ways of breaking app-integrated LLMs
+    OpenPromptInjection - This repository provides a benchmark for prompt Injection attacks and defenses
+    Plexiglass - A toolkit for detecting and protecting against vulnerabilities in Large Language Models (LLMs).
+    ps-fuzz - Make your GenAI Apps Safe & Secure 🚀 Test & harden your system prompt
+    EasyEdit - Modify an LLM's ground truths
+    spikee) - Simple Prompt Injection Kit for Evaluation and Exploitation
+    Prompt Hacking Resources - A list of curated resources for people interested in AI Red Teaming, Jailbreaking, and Prompt Injection
+    mcp-injection-experiments - Code snippets to reproduce MCP tool poisoning attacks.
+    gptfuzz - Official repo for GPTFUZZER : Red Teaming Large Language Models with Auto-Generated Jailbreak Prompts
+    AgentDojo - A Dynamic Environment to Evaluate Attacks and Defenses for LLM Agents.
+    jailbreakbench - JailbreakBench: An Open Robustness Benchmark for Jailbreaking Language Models [NeurIPS 2024 Datasets and Benchmarks Track]
+    giskard - 🐢 Open-Source Evaluation & Testing library for LLM Agents
+
+AI for offensive cyber
+
+    AI-Red-Teaming-Playground-Labs - AI Red Teaming playground labs to run AI Red Teaming trainings including infrastructure.
+    HackGPT - A tool using ChatGPT for hacking
+    mcp-for-security - A collection of Model Context Protocol servers for popular security tools like SQLMap, FFUF, NMAP, Masscan and more. Integrate security testing and penetration testing into AI workflows.
+    cai - Cybersecurity AI (CAI), an open Bug Bounty-ready Artificial Intelligence (paper)
+    AIRTBench - Code Repository for: AIRTBench: Measuring Autonomous AI Red Teaming Capabilities in Language Models
+    PentestGPT - A GPT-empowered penetration testing tool
+    HackingBuddyGPT - Helping Ethical Hackers use LLMs in 50 Lines of Code or less..
+    HexStrikeAI - HexStrike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, GPT, Copilot, etc.) autonomously run 150+ cybersecurity tools for automated pentesting, vulnerability discovery, bug bounty automation, and security research. Seamlessly bridge LLMs with real-world offensive security capabilities.
+    Burp MCP Server - MCP Server for Burp
+    burpgpt - A Burp Suite extension that integrates OpenAI's GPT to perform an additional passive scan for discovering highly bespoke vulnerabilities and enables running traffic-based analysis of any type.
+
+Defensive tools and frameworks
+Guides & frameworks
+
+    OWASP LLM and Generative AI Security Center of Excellence Guide
+    OWASP Agentic AI – Threats and Mitigations
+    OWASP AI Security Solutions Landscape
+    OWASP GenAI Incident Response Guide
+    OWASP LLM and GenAI Data Security Best Practices
+    OWASP Securing Agentic AI Applications
+    CSA Maestro AI Threat Modeling Framework
+
+AI for defensive cyber
+
+    Claude Code Security Review - An AI-powered security review GitHub Action using Claude to analyze code changes for security vulnerabilities.
+    GhidraGPT - Integrates GPT models into Ghidra for automated code analysis, variable renaming, vulnerability detection, and explanation generation.
+
+Data security and governance
+
+    datasig - Dataset fingerprinting for AIBOM
+    OWASP AIBOM - AI Bill of Materials
+
+Safety and prevention
+
+    Guardrail.ai - Guardrails is a Python package that lets a user add structure, type and quality guarantees to the outputs of large language models (LLMs)
+    CodeGate - An open-source, privacy-focused project that acts as a layer of security within a developers Code Generation AI workflow
+    MCP-Security-Checklist - A comprehensive security checklist for MCP-based AI tools. Built by SlowMist to safeguard LLM plugin ecosystems.
+    Awesome-MCP-Security - Everything you need to know about Model Context Protocol (MCP) security.
+    LlamaFirewall - LlamaFirewall is a framework designed to detect and mitigate AI centric security risks, supporting multiple layers of inputs and outputs, such as typical LLM chat and more advanced multi-step agentic operations.
+    awesome-ai-safety
+    ZenGuard AI - The fastest Trust Layer for AI Agents
+    llm-guard - LLM Guard by Protect AI is a comprehensive tool designed to fortify the security of Large Language Models (LLMs).
+    vibraniumdome - Full blown, end to end LLM WAF for Agents, allowing security teams govenrance, auditing, policy driven control over Agents usage of language models.
+    mcp-guardian - MCP Guardian manages your LLM assistant's access to MCP servers, handing you realtime control of your LLM's activity.
+    secure-mcp-gateway - This Secure MCP Gateway is built with authentication, automatic tool discovery, caching, and guardrail enforcement.
+    mcp-context-protector - context-protector is a security wrapper for MCP servers that addresses risks associated with running untrusted MCP servers, including line jumping, unexpected server configuration changes, and other prompt injection attacks
+    NeMo-GuardRails - NeMo Guardrails is an open-source toolkit for easily adding programmable guardrails to LLM-based conversational systems.
+    MCP Audit VSCode Extension - Audit and log all GitHub Copilot MCP tool calls in VSCode in centrally with ease.
+    DynaGuard - A Dynamic Guardrail Model With User-Defined Policies
+
+Detection & scanners
+
+    modelscan - ModelScan is an open source project from Protect AI that scans models to determine if they contain unsafe code.
+    rebuff - Prompt Injection Detector
+    langkit - LangKit is an open-source text metrics toolkit for monitoring language models. The toolkit various security related metrics that can be used to detect attacks
+    MCP-Scan - A security scanning tool for MCP servers
+    picklescan - Security scanner detecting Python Pickle files performing suspicious actions
+    fickling - A Python pickling decompiler and static analyzer
+
+Privacy and confidentiality
+
+    Python Differential Privacy Library
+    Diffprivlib - The IBM Differential Privacy Library
+    PLOT4ai - Privacy Library Of Threats 4 Artificial Intelligence A threat modeling library to help you build responsible AI
+    TenSEAL - A library for doing homomorphic encryption operations on tensors
+    SyMPC - A Secure Multiparty Computation companion library for Syft
+    PyVertical - Privacy Preserving Vertical Federated Learning
+    Cloaked AI - Open source property-preserving encryption for vector embeddings
+    dstack - Open-source confidential AI framework for secure ML/LLM deployment with hardware-enforced isolation and data privacy
+    PrivacyRaven - privacy testing library for deep learning systems
